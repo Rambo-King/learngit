@@ -21,4 +21,8 @@ function send_message($chat){
 	)
 }
 
+function test($t){
+	var_dump($t);
+}
+
 send_message(new ChatSocket());
